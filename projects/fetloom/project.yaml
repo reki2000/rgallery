@@ -1,0 +1,46 @@
+order: 130
+tags:
+- demo
+title:
+  ja: FetLoom
+  en: FetLoom
+summary:
+  ja: MOSトランジスタから回路を組み立てる。小さな論理ゲートからCPUまで、独自の言語で記述して動かすブラウザ回路シミュレーター。
+  en: Build circuits from MOS transistors. Describe and simulate everything from logic gates to CPU-scale structures
+    with a browser-based circuit language.
+technology:
+- WebAssembly
+- Circuit simulation
+repository: https://github.com/reki2000/fetloom
+screenshots:
+- src: screenshots/i4004-die-500-steps.png
+  caption:
+    ja: Intel 4004・ダイレイアウトと信号波形
+    en: Intel 4004 · die layout and signal waveforms
+- src: screenshots/i4004-die-500-steps.png
+  caption:
+    ja: Intel 4004の回路レイアウト（拡大）
+    en: Intel 4004 circuit layout · close-up
+  crop:
+    x: 900
+    y: 380
+    width: 540
+    height: 540
+- src: screenshots/i4004-die-500-steps.png
+  caption:
+    ja: .fetl ソースコード（拡大）
+    en: .fetl source code · close-up
+  crop:
+    x: 20
+    y: 151
+    width: 628
+    height: 614
+- src: screenshots/circuit-detail-eb168c699987.png
+  caption:
+    ja: 回路配線とモジュールの拡大
+    en: Circuit wiring and module detail
+- src: screenshots/counter4-88e3d5788801.png
+  caption:
+    ja: 4ビットカウンター・ソース、回路レイアウトと信号波形
+    en: 4-bit counter · source, circuit layout and waveforms
+url: https://reki2000.github.io/fetloom/

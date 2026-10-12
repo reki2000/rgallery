@@ -1,0 +1,59 @@
+{
+  "project": "legiomachia",
+  "source_url": "https://reki2000.github.io/legiomachia/",
+  "captured_at": "20261012T021119271741Z",
+  "screenshots": [
+    {
+      "src": "desktop-1.png",
+      "caption": {
+        "ja": "PC・場面1",
+        "en": "Desktop scene 1"
+      },
+      "url": "https://reki2000.github.io/legiomachia/?size=M&stage=harbor&weather=clear&mode=annihilate",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "10ffd104bd8b995fd457d51c2c5d9b477000fa1e20bb9b8dae573cb4edfc10cb"
+    },
+    {
+      "src": "desktop-2.png",
+      "caption": {
+        "ja": "PC・場面2",
+        "en": "Desktop scene 2"
+      },
+      "url": "https://reki2000.github.io/legiomachia/?size=M&stage=river&weather=clear&mode=annihilate",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "cdade14a682dcbc1463a286f5bbeadb9b90b2fb6873d160f981ded4b87ed330a"
+    },
+    {
+      "src": "desktop-3.png",
+      "caption": {
+        "ja": "PC・場面3",
+        "en": "Desktop scene 3"
+      },
+      "url": "https://reki2000.github.io/legiomachia/?size=M&stage=river&weather=clear&mode=annihilate",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "9973d7276cf1c06685801ceaf79dd1b7fde8db243b258346fab6cf6af1622331"
+    },
+    {
+      "src": "desktop-4.png",
+      "caption": {
+        "ja": "PC・場面4",
+        "en": "Desktop scene 4"
+      },
+      "url": "https://reki2000.github.io/legiomachia/?size=M&stage=bridge&weather=clear&mode=annihilate",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "34baad7173c151eb0349663fc161008781c219820040f2b0b0ab7041da2978f7"
+    }
+  ]
+}

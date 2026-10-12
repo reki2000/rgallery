@@ -1,0 +1,98 @@
+{
+  "project": "dino",
+  "source_url": "https://wasm-raytrace.pages.dev/",
+  "captured_at": "20261012T012408782025Z",
+  "screenshots": [
+    {
+      "src": "desktop-1.png",
+      "caption": {
+        "ja": "PC・場面1",
+        "en": "Desktop scene 1"
+      },
+      "url": "https://wasm-raytrace.pages.dev/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "100e7cbe55bf5edbbaa8e9610023609f5298edb6e2d7106316347ac58e9931e4"
+    },
+    {
+      "src": "desktop-2.png",
+      "caption": {
+        "ja": "PC・場面2",
+        "en": "Desktop scene 2"
+      },
+      "url": "https://wasm-raytrace.pages.dev/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "f210db21237c8e63272aeb849d1e32ed77682dffd64409a10c2bde501093917a"
+    },
+    {
+      "src": "desktop-3.png",
+      "caption": {
+        "ja": "PC・場面3",
+        "en": "Desktop scene 3"
+      },
+      "url": "https://wasm-raytrace.pages.dev/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "e3d5d7f6ccb2d15dfa63a4987cac71bf2727192ab2326cf04b71c4782ef7cbc6"
+    },
+    {
+      "src": "desktop-4.png",
+      "caption": {
+        "ja": "PC・場面4",
+        "en": "Desktop scene 4"
+      },
+      "url": "https://wasm-raytrace.pages.dev/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "f6ef134a62e8fbc947a35e96741b785e43f8b464b0b2f3d8c33628496c64decc"
+    },
+    {
+      "src": "desktop-5.png",
+      "caption": {
+        "ja": "PC・場面5",
+        "en": "Desktop scene 5"
+      },
+      "url": "https://wasm-raytrace.pages.dev/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "87cf731cacf8e3c07a09ee38d61104cad5d4f69e39c9a0699417c6d7b6f353d8"
+    },
+    {
+      "src": "mobile-1.png",
+      "caption": {
+        "ja": "スマートフォン・場面1",
+        "en": "Mobile scene 1"
+      },
+      "url": "https://wasm-raytrace.pages.dev/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "5b08dea1567c8d97e39cc47c5d995d81fc046e246b2e850bf439127a0320fa59"
+    },
+    {
+      "src": "mobile-2.png",
+      "caption": {
+        "ja": "スマートフォン・場面2",
+        "en": "Mobile scene 2"
+      },
+      "url": "https://wasm-raytrace.pages.dev/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "a5203a605a5b7782277d941b65fbd6f5eb3512a258c2a3000d6881525ecdcae7"
+    }
+  ]
+}

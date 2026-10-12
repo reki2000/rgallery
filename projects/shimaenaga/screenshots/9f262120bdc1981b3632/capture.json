@@ -1,0 +1,72 @@
+{
+  "project": "shimaenaga",
+  "source_url": "https://claude.ai/artifact/7Qs8xwHhjTpa3gv4LdcKgd",
+  "captured_at": "20261012T014401453155Z",
+  "screenshots": [
+    {
+      "src": "desktop-1.png",
+      "caption": {
+        "ja": "PC・場面1",
+        "en": "Desktop scene 1"
+      },
+      "url": "https://claude.ai/artifact/7Qs8xwHhjTpa3gv4LdcKgd",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "c98edd8c7e682f50b70575703f8198391ed7d331c2a5abe29915118e4c552fbe"
+    },
+    {
+      "src": "desktop-2.png",
+      "caption": {
+        "ja": "PC・場面2",
+        "en": "Desktop scene 2"
+      },
+      "url": "https://claude.ai/artifact/7Qs8xwHhjTpa3gv4LdcKgd",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "ddb5c180ae26e171c706d999022ffbf2ec6d95309066d89c9b3a16f2c2224d23"
+    },
+    {
+      "src": "desktop-3.png",
+      "caption": {
+        "ja": "PC・場面3",
+        "en": "Desktop scene 3"
+      },
+      "url": "https://claude.ai/artifact/7Qs8xwHhjTpa3gv4LdcKgd",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "b8f0d9b58ed81e690006152a04ce20509e3f2624ffe8733cb8e3111589a93c8f"
+    },
+    {
+      "src": "desktop-4.png",
+      "caption": {
+        "ja": "PC・場面4",
+        "en": "Desktop scene 4"
+      },
+      "url": "https://claude.ai/artifact/7Qs8xwHhjTpa3gv4LdcKgd",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "fc9f5599e64abd06f55bd6611d4fd99c39651ae4b4cdaacfbdbb1b2f53405c1e"
+    },
+    {
+      "src": "mobile-1.png",
+      "caption": {
+        "ja": "スマートフォン・場面1",
+        "en": "Mobile scene 1"
+      },
+      "url": "https://claude.ai/artifact/7Qs8xwHhjTpa3gv4LdcKgd",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "7be89525f4599317d3a232f3de00f20ccc64b55fc4e9fce5897636178ff6bbd0"
+    }
+  ]
+}

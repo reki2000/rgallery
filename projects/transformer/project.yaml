@@ -1,0 +1,24 @@
+order: 70
+tags:
+- demo
+title:
+  ja: 育児川柳 Transformer 学習ラボ
+  en: Senryu Transformer Lab
+summary:
+  ja: 小さなTransformerが、ブラウザ内で本当に学習する。育児川柳を題材に、損失や内部の計算を見ながらニューラルネットワークを観察する教材。
+  en: Train a tiny Transformer inside your browser. Explore loss curves and internal computations using Japanese
+    poems about parenting.
+technology:
+- WebAssembly SIMD
+- Web Workers
+url: https://reki2000.github.io/demos-transformer/
+repository: https://github.com/reki2000/demos-transformer
+screenshots:
+- src: screenshots/abdbe76b6d7a0783baae/desktop-1.png
+  caption:
+    ja: PC・場面1
+    en: Desktop scene 1
+- src: screenshots/abdbe76b6d7a0783baae/desktop-2.png
+  caption:
+    ja: PC・場面2
+    en: Desktop scene 2

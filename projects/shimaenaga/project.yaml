@@ -1,0 +1,42 @@
+order: 140
+tags:
+- demo
+title:
+  ja: シマエナガ
+  en: Shimaenaga
+summary:
+  ja: 雪の森にまぎれたシマエナガを探してクリックしよう。白くて丸い小鳥を見つけて進む、Claude Artifactで公開された探索ゲーム。
+  en: Find the long-tailed tits hidden in the snowy forest and click them. Spot the little round birds in this search
+    game, published as a Claude Artifact.
+technology:
+- Claude Artifact
+url: https://claude.ai/artifact/7Qs8xwHhjTpa3gv4LdcKgd
+screenshots:
+- src: screenshots/9f262120bdc1981b3632/desktop-2.png
+  caption:
+    ja: 雪の森でシマエナガを探す
+    en: Finding long-tailed tits in the snowy forest
+  crop:
+    x: 0
+    y: 136
+    width: 1440
+    height: 664
+- src: screenshots/9f262120bdc1981b3632/desktop-1.png
+  caption:
+    ja: スタート画面
+    en: Start screen
+- src: screenshots/9f262120bdc1981b3632/desktop-3.png
+  caption:
+    ja: 森のクリア画面
+    en: Forest cleared
+- src: screenshots/9f262120bdc1981b3632/desktop-4.png
+  caption:
+    ja: 50羽を探す早押しステージ
+    en: Finding 50 birds in the timed stage
+- src: screenshots/9f262120bdc1981b3632/mobile-1.png
+  caption:
+    ja: スマートフォンでのプレイ
+    en: Mobile gameplay
+note:
+  ja: 対象年齢：4歳～
+  en: Ages 4+

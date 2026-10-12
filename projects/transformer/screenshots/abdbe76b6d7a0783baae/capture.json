@@ -1,0 +1,33 @@
+{
+  "project": "transformer",
+  "source_url": "https://reki2000.github.io/demos-transformer/",
+  "captured_at": "20261012T021005485582Z",
+  "screenshots": [
+    {
+      "src": "desktop-1.png",
+      "caption": {
+        "ja": "PC・場面1",
+        "en": "Desktop scene 1"
+      },
+      "url": "https://reki2000.github.io/demos-transformer/",
+      "viewport": {
+        "width": 1933,
+        "height": 1208
+      },
+      "sha256": "a7011ba7cb3c5d7b0aff1139506d8760709154dcc600ce650386c20d9fd32711"
+    },
+    {
+      "src": "desktop-2.png",
+      "caption": {
+        "ja": "PC・場面2",
+        "en": "Desktop scene 2"
+      },
+      "url": "https://reki2000.github.io/demos-transformer/",
+      "viewport": {
+        "width": 1933,
+        "height": 1208
+      },
+      "sha256": "7619f4163742176390098e981f6f1adb22b3e8af22e63e7bdf7d2b0b938be70c"
+    }
+  ]
+}

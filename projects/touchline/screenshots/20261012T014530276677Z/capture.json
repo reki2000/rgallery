@@ -1,0 +1,98 @@
+{
+  "project": "touchline",
+  "source_url": "https://reki2000.github.io/demos-soccer/",
+  "captured_at": "20261012T014530276677Z",
+  "screenshots": [
+    {
+      "src": "desktop-1.png",
+      "caption": {
+        "ja": "PC・場面1",
+        "en": "Desktop scene 1"
+      },
+      "url": "https://reki2000.github.io/demos-soccer/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "dd9a8ced15d0df5abe9ca4468c748fbfa0c6bba1fb6db02b66a08ef0c9c99cb0"
+    },
+    {
+      "src": "desktop-2.png",
+      "caption": {
+        "ja": "PC・場面2",
+        "en": "Desktop scene 2"
+      },
+      "url": "https://reki2000.github.io/demos-soccer/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "975b316467c113e7798442a38a6dc5490de07055972f10a837c7a10fbafcebdd"
+    },
+    {
+      "src": "desktop-3.png",
+      "caption": {
+        "ja": "PC・場面3",
+        "en": "Desktop scene 3"
+      },
+      "url": "https://reki2000.github.io/demos-soccer/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "bd396d9ecec12bfb07bcb347a2c17277fca38112f8b1da544b127a27dcb198d3"
+    },
+    {
+      "src": "desktop-4.png",
+      "caption": {
+        "ja": "PC・場面4",
+        "en": "Desktop scene 4"
+      },
+      "url": "https://reki2000.github.io/demos-soccer/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "8829f97eddfe75cbc894e65e87889f457a5e8be81a0e3bb945e5543fb9c47ddd"
+    },
+    {
+      "src": "desktop-5.png",
+      "caption": {
+        "ja": "PC・場面5",
+        "en": "Desktop scene 5"
+      },
+      "url": "https://reki2000.github.io/demos-soccer/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "86e8b29ad567c0e7d283272bbf0adb3f437443afb1cca0fa6b16c0755272c357"
+    },
+    {
+      "src": "mobile-1.png",
+      "caption": {
+        "ja": "スマートフォン・場面1",
+        "en": "Mobile scene 1"
+      },
+      "url": "https://reki2000.github.io/demos-soccer/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "486144f754f9dda7e5ce538e825e7857f41ebd78f1e7c4f2c32efdb198374d25"
+    },
+    {
+      "src": "mobile-2.png",
+      "caption": {
+        "ja": "スマートフォン・場面2",
+        "en": "Mobile scene 2"
+      },
+      "url": "https://reki2000.github.io/demos-soccer/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "8c091eadb7066e526b28fe629c1d48b9ae486d01e27963a237b703d9bd76038e"
+    }
+  ]
+}

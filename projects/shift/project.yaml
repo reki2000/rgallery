@@ -1,0 +1,38 @@
+order: 30
+tags:
+- game
+title:
+  ja: SHIFT — Workshop Tycoon
+  en: SHIFT — Workshop Tycoon
+summary:
+  ja: 材料を運び、加工し、梱包して出荷。小さな作業場を育てていく、見下ろし型の工場経営ゲーム。
+  en: Carry, process, pack and deliver. Grow a tiny workshop through five chapters in an isometric factory game,
+    with progress saved in your browser.
+technology:
+- JavaScript
+- Canvas
+url: https://reki2000.github.io/demos-worker/
+repository: https://github.com/reki2000/demos-worker
+screenshots:
+- src: screenshots/20261012T014259808698Z/desktop-1.png
+  caption:
+    ja: 作業場での加工・梱包
+    en: Processing and packing in the workshop
+  crop:
+    x: 0
+    y: 202
+    width: 1160
+    height: 598
+- src: screenshots/20261012T014259808698Z/desktop-1.png
+  caption:
+    ja: 作業場の画面全体
+    en: Full workshop interface
+- src: screenshots/20261012T014259808698Z/desktop-2.png
+  caption:
+    ja: 出荷の場面
+    en: Delivery scene
+  crop:
+    x: 0
+    y: 202
+    width: 1160
+    height: 580

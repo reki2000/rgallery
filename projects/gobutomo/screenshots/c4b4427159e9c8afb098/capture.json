@@ -1,0 +1,72 @@
+{
+  "project": "gobutomo",
+  "source_url": "https://reki2000.github.io/gobutomo/",
+  "captured_at": "20261012T021257116705Z",
+  "screenshots": [
+    {
+      "src": "desktop-1.png",
+      "caption": {
+        "ja": "PC・場面1",
+        "en": "Desktop scene 1"
+      },
+      "url": "https://reki2000.github.io/gobutomo/",
+      "viewport": {
+        "width": 546,
+        "height": 1070
+      },
+      "sha256": "3c9a4e321024dbfb9fcb6c4452f310ee94f742cbe5a0b881a125ec7bb224b20d"
+    },
+    {
+      "src": "desktop-2.png",
+      "caption": {
+        "ja": "PC・場面2",
+        "en": "Desktop scene 2"
+      },
+      "url": "https://reki2000.github.io/gobutomo/",
+      "viewport": {
+        "width": 554,
+        "height": 1111
+      },
+      "sha256": "209cdf74201f04159f7ffdd39219044c78ce176f2167959f0c76358329879e2c"
+    },
+    {
+      "src": "desktop-3.png",
+      "caption": {
+        "ja": "PC・場面3",
+        "en": "Desktop scene 3"
+      },
+      "url": "https://reki2000.github.io/gobutomo/",
+      "viewport": {
+        "width": 554,
+        "height": 1111
+      },
+      "sha256": "ebfdaa774590758d3b7b288afc671b81c3259a4423901b9ea5b33412987b310c"
+    },
+    {
+      "src": "desktop-4.png",
+      "caption": {
+        "ja": "PC・場面4",
+        "en": "Desktop scene 4"
+      },
+      "url": "https://reki2000.github.io/gobutomo/",
+      "viewport": {
+        "width": 554,
+        "height": 1111
+      },
+      "sha256": "b0b400a71b05d176023381e36839dea1e9392078f9e3d3bde3796855e99f35bf"
+    },
+    {
+      "src": "desktop-5.png",
+      "caption": {
+        "ja": "PC・場面5",
+        "en": "Desktop scene 5"
+      },
+      "url": "https://reki2000.github.io/gobutomo/",
+      "viewport": {
+        "width": 554,
+        "height": 1111
+      },
+      "sha256": "2f92cf6a7e6fafb219f9dca00f0477d8b22c16b5bd74bba9bc171a7629c4fbd8"
+    }
+  ]
+}

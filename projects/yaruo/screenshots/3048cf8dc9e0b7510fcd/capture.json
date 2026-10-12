@@ -1,0 +1,61 @@
+{
+  "project": "yaruo",
+  "source_url": "https://reki2000.github.io/genai-textbooks/",
+  "captured_at": "20261012T014803509993Z",
+  "reconstructed": true,
+  "note": "Reconstructed from existing screenshots; individual page URLs and browser viewports were not recorded. The URL is the project landing page.",
+  "screenshots": [
+    {
+      "src": "desktop-1.png",
+      "caption": {
+        "ja": "教材一覧",
+        "en": "Textbook collection"
+      },
+      "url": "https://reki2000.github.io/genai-textbooks/",
+      "image_size": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "fc79b3da8dedccee20d47c991789717ad70f3bd2b85ea08f5049680f635ff2c6"
+    },
+    {
+      "src": "desktop-2.png",
+      "caption": {
+        "ja": "教材のスライド表示",
+        "en": "Textbook slide view"
+      },
+      "url": "https://reki2000.github.io/genai-textbooks/",
+      "image_size": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "96899d7e8c1ddcd4e6f7f88d0584f7b9bde85b4ad70d75ef3feca3449c783e97"
+    },
+    {
+      "src": "desktop-3.png",
+      "caption": {
+        "ja": "対話と図解で学ぶ情報量",
+        "en": "Learning information theory through dialogue and diagrams"
+      },
+      "url": "https://reki2000.github.io/genai-textbooks/",
+      "image_size": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "fe3ce924a3c9db45af6b9e88447139d9804634de110c586b8d192a45a12e5b88"
+    },
+    {
+      "src": "desktop-4.png",
+      "caption": {
+        "ja": "食料政策の教材・対話本文",
+        "en": "Food-policy textbook dialogue"
+      },
+      "url": "https://reki2000.github.io/genai-textbooks/",
+      "image_size": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "116a6ede8c05bd68034275d53e063c38e9895004014b1d0ff23a7aa1368d99ce"
+    }
+  ]
+}

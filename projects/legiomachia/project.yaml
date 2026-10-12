@@ -1,0 +1,35 @@
+order: 50
+tags:
+- demo
+title:
+  ja: Legiomachia
+  en: Legiomachia
+summary:
+  ja: 歩兵、騎兵、戦象、攻城兵器。野戦から渡河、攻城戦まで、古代の軍勢がぶつかり合うWebGLシミュレーター。
+  en: Infantry, cavalry, war elephants and siege engines collide. Watch ancient armies in open-field battles, river
+    crossings and sieges.
+technology:
+- Three.js
+- WebGL
+url: https://reki2000.github.io/legiomachia/
+repository: https://github.com/reki2000/legiomachia
+screenshots:
+- src: screenshots/623668faf22438ab252e/desktop-1.png
+  caption:
+    ja: PC・場面1
+    en: Desktop scene 1
+- src: screenshots/623668faf22438ab252e/desktop-2.png
+  caption:
+    ja: PC・場面2
+    en: Desktop scene 2
+- src: screenshots/623668faf22438ab252e/desktop-3.png
+  caption:
+    ja: PC・場面3
+    en: Desktop scene 3
+- src: screenshots/623668faf22438ab252e/desktop-4.png
+  caption:
+    ja: PC・場面4
+    en: Desktop scene 4
+note:
+  ja: 対象年齢：10歳以上
+  en: Ages 10+

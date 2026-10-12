@@ -1,0 +1,44 @@
+order: 80
+tags:
+- game
+title:
+  ja: ぱくっと！ゴブとも
+  en: Gobutomo
+summary:
+  ja: 大きなコマが、小さなコマをぱくっと覆う。スマホで遊べる、重ねる三目並べ。CPU対戦と2人対戦に対応。
+  en: Bigger pieces cover smaller ones in this stacking tic-tac-toe game. Play against the computer or a friend,
+    including on your phone.
+technology:
+- JavaScript
+- Mobile
+url: https://reki2000.github.io/gobutomo/
+repository: https://github.com/reki2000/gobutomo
+screenshots:
+- src: screenshots/c4b4427159e9c8afb098/desktop-5.png
+  caption:
+    ja: 対戦中のゲーム盤面
+    en: Game board during a match
+  crop:
+    x: 54
+    y: 375
+    width: 446
+    height: 453
+- src: screenshots/c4b4427159e9c8afb098/desktop-3.png
+  caption:
+    ja: PC・場面3
+    en: Desktop scene 3
+- src: screenshots/c4b4427159e9c8afb098/desktop-4.png
+  caption:
+    ja: PC・場面4
+    en: Desktop scene 4
+- src: screenshots/c4b4427159e9c8afb098/desktop-1.png
+  caption:
+    ja: PC・場面1
+    en: Desktop scene 1
+- src: screenshots/c4b4427159e9c8afb098/desktop-2.png
+  caption:
+    ja: PC・場面2
+    en: Desktop scene 2
+note:
+  ja: 対象年齢：4歳～
+  en: Ages 4+

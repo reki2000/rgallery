@@ -1,0 +1,25 @@
+order: 120
+tags:
+- demo
+title:
+  ja: Aquarium
+  en: Aquarium
+summary:
+  ja: 光が揺れる淡水の水槽と、小さなチェリーシュリンプ。水の吸収・散乱、ガラスの反射、生き物の動きをブラウザで再現する実験。
+  en: A freshwater tank with cherry shrimp. An experiment in water optics, glass reflections and procedural animation
+    using WebGPU and TSL.
+technology:
+- Three.js
+- WebGPU
+- TSL
+repository: https://github.com/reki2000/aquarium
+screenshots:
+- src: screenshots/overview.png
+  caption:
+    ja: チェリーシュリンプの水槽全景
+    en: Cherry shrimp aquarium overview
+- src: screenshots/shrimp-closeup-13cec6d6114f.png
+  caption:
+    ja: チェリーシュリンプの拡大
+    en: Cherry shrimp close-up
+url: https://reki2000.github.io/aquarium/

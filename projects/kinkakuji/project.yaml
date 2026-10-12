@@ -1,0 +1,37 @@
+order: 10
+tags:
+- demo
+title:
+  ja: 金閣寺
+  en: Kinkaku-ji
+summary:
+  ja: 金箔の光、屋根の重なり、水面の反射。ブラウザの中で、金閣寺の建築をさまざまな視点から眺める3Dビューアー。高画質モードではレイトレーシングで反射と陰影を精細に描きます。
+  en: A browser-based view of the Golden Pavilion. Explore its architecture, golden surfaces and reflections from
+    six camera positions. High-quality mode uses ray tracing to refine reflections and shading.
+technology:
+- WebGL 2
+- Three.js
+- Ray tracing
+url: https://reki2000.github.io/demos-kinkakuji/
+repository: https://github.com/reki2000/demos-kinkakuji
+screenshots:
+- src: screenshots/912fc0cda76fc08def54/desktop-1.png
+  caption:
+    ja: 正面と水面の反射
+    en: Front view and reflections
+- src: screenshots/912fc0cda76fc08def54/desktop-2.png
+  caption:
+    ja: 1階の壁画と回廊
+    en: Ground-floor paintings and veranda
+- src: screenshots/912fc0cda76fc08def54/desktop-3.png
+  caption:
+    ja: 軒先と風鐸
+    en: Eaves and hanging bell
+- src: screenshots/912fc0cda76fc08def54/desktop-4.png
+  caption:
+    ja: 屋根の鳳凰
+    en: Phoenix on the roof
+- src: screenshots/912fc0cda76fc08def54/desktop-5.png
+  caption:
+    ja: 裏側からの眺め
+    en: Rear view

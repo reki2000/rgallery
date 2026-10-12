@@ -1,0 +1,20 @@
+{
+  "project": "pianist",
+  "source_url": "https://reki2000.github.io/demos-pianist/",
+  "captured_at": "20261012T043029139188Z",
+  "screenshots": [
+    {
+      "src": "desktop-1.png",
+      "caption": {
+        "ja": "PC・場面1",
+        "en": "Desktop scene 1"
+      },
+      "url": "https://reki2000.github.io/demos-pianist/",
+      "viewport": {
+        "width": 1238,
+        "height": 971
+      },
+      "sha256": "80213b61fe5a970885075227ec96de9a58a25db9eb7583c4ad4eeda49b372792"
+    }
+  ]
+}

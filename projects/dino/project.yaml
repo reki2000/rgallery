@@ -1,0 +1,44 @@
+order: 90
+tags:
+- demo
+title:
+  ja: DINO // RT HERD
+  en: DINO // RT HERD
+summary:
+  ja: 恐竜の群れを、GPUを使わずCPUだけで描く。WebAssembly SIMDによるリアルタイムのレイマーチングと、材質・モデルの実験。
+  en: A dinosaur herd rendered entirely on the CPU with WebAssembly SIMD. Experiment with real-time ray marching,
+    mesh models and materials.
+technology:
+- WebAssembly SIMD
+- Ray marching
+url: https://wasm-raytrace.pages.dev/
+repository: https://github.com/reki2000/wasm-raytrace
+screenshots:
+- src: screenshots/desktop-1.png
+  caption:
+    ja: PC・場面1
+    en: Desktop scene 1
+- src: screenshots/desktop-2.png
+  caption:
+    ja: PC・場面2
+    en: Desktop scene 2
+- src: screenshots/desktop-3.png
+  caption:
+    ja: PC・場面3
+    en: Desktop scene 3
+- src: screenshots/desktop-4.png
+  caption:
+    ja: PC・場面4
+    en: Desktop scene 4
+- src: screenshots/desktop-5.png
+  caption:
+    ja: PC・場面5
+    en: Desktop scene 5
+- src: screenshots/mobile-1.png
+  caption:
+    ja: スマートフォン・場面1
+    en: Mobile scene 1
+- src: screenshots/mobile-2.png
+  caption:
+    ja: スマートフォン・場面2
+    en: Mobile scene 2

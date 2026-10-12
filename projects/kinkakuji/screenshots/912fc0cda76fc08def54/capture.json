@@ -1,0 +1,74 @@
+{
+  "project": "kinkakuji",
+  "source_url": "https://reki2000.github.io/demos-kinkakuji/",
+  "captured_at": "20261012T013157682502Z",
+  "reconstructed": true,
+  "note": "Reconstructed from existing screenshots; source URL is the project URL and exact browser viewport was not recorded.",
+  "screenshots": [
+    {
+      "src": "desktop-1.png",
+      "caption": {
+        "ja": "正面と水面の反射",
+        "en": "Front view and reflections"
+      },
+      "url": "https://reki2000.github.io/demos-kinkakuji/",
+      "image_size": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "b270d823c6b7d218460c25dadd40758df84ea1b0ba144b0742607bc8937e61a9"
+    },
+    {
+      "src": "desktop-2.png",
+      "caption": {
+        "ja": "1階の壁画と回廊",
+        "en": "Ground-floor paintings and veranda"
+      },
+      "url": "https://reki2000.github.io/demos-kinkakuji/",
+      "image_size": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "b47af21056e47e70f036696d7bb2cc8e2f1a6666b227bbbb3d29157335437806"
+    },
+    {
+      "src": "desktop-3.png",
+      "caption": {
+        "ja": "軒先と風鐸",
+        "en": "Eaves and hanging bell"
+      },
+      "url": "https://reki2000.github.io/demos-kinkakuji/",
+      "image_size": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "330c8fc3b32099099fd90061c64fd97fb0482ce609891c714f4b00b9386463f2"
+    },
+    {
+      "src": "desktop-4.png",
+      "caption": {
+        "ja": "屋根の鳳凰",
+        "en": "Phoenix on the roof"
+      },
+      "url": "https://reki2000.github.io/demos-kinkakuji/",
+      "image_size": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "7951d87fc439120341317ca422e28be88cb0d63523348b88f38b1f7242c68214"
+    },
+    {
+      "src": "desktop-5.png",
+      "caption": {
+        "ja": "裏側からの眺め",
+        "en": "Rear view"
+      },
+      "url": "https://reki2000.github.io/demos-kinkakuji/",
+      "image_size": {
+        "width": 1440,
+        "height": 900
+      },
+      "sha256": "90422a3ca19a18e57c74fdd8a0afd64be2c34bc7ce8198b896da3aaaad3e2600"
+    }
+  ]
+}

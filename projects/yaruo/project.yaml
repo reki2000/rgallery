@@ -1,0 +1,36 @@
+order: 60
+tags:
+- text
+title:
+  ja: やる夫で学ぶ
+  en: Learn with Yaruo
+summary:
+  ja: 素朴な疑問から、理論を再発見する。やる夫とやらない夫の対話で読む、AI生成の日本語教材集。
+  en: Rediscover ideas through questions and dialogue. A collection of AI-generated Japanese learning texts featuring
+    Yaruo and Yaranaio.
+technology:
+- Japanese
+- Dialogue
+- Markdown
+url: https://reki2000.github.io/genai-textbooks/
+repository: https://github.com/reki2000/genai-textbooks
+note:
+  ja: 教材本文は日本語です。
+  en: The learning texts are in Japanese.
+screenshots:
+- src: screenshots/3048cf8dc9e0b7510fcd/desktop-1.png
+  caption:
+    ja: 教材一覧
+    en: Textbook collection
+- src: screenshots/3048cf8dc9e0b7510fcd/desktop-2.png
+  caption:
+    ja: 教材のスライド表示
+    en: Textbook slide view
+- src: screenshots/3048cf8dc9e0b7510fcd/desktop-3.png
+  caption:
+    ja: 対話と図解で学ぶ情報量
+    en: Learning information theory through dialogue and diagrams
+- src: screenshots/3048cf8dc9e0b7510fcd/desktop-4.png
+  caption:
+    ja: 食料政策の教材・対話本文
+    en: Food-policy textbook dialogue

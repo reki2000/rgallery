@@ -1,0 +1,46 @@
+{
+  "project": "touchline",
+  "source_url": "https://reki2000.github.io/demos-soccer/",
+  "captured_at": "20261012T021510156945Z",
+  "screenshots": [
+    {
+      "src": "desktop-1.png",
+      "caption": {
+        "ja": "PC・場面1",
+        "en": "Desktop scene 1"
+      },
+      "url": "https://reki2000.github.io/demos-soccer/",
+      "viewport": {
+        "width": 1467,
+        "height": 1284
+      },
+      "sha256": "2c11ae5e3d36456761eed5dec2efbd9b6f2dd823cbec40ad93a3b348f84a228b"
+    },
+    {
+      "src": "desktop-2.png",
+      "caption": {
+        "ja": "PC・場面2",
+        "en": "Desktop scene 2"
+      },
+      "url": "https://reki2000.github.io/demos-soccer/",
+      "viewport": {
+        "width": 1467,
+        "height": 1284
+      },
+      "sha256": "d0afcf8e2bfde5ab8cb278ff7bd116b6a4374e6351bd493f04db9e59cd9eea0e"
+    },
+    {
+      "src": "desktop-3.png",
+      "caption": {
+        "ja": "PC・場面3",
+        "en": "Desktop scene 3"
+      },
+      "url": "https://reki2000.github.io/demos-soccer/",
+      "viewport": {
+        "width": 1467,
+        "height": 1284
+      },
+      "sha256": "ed4d57f8155d6d235396e6a00303dc4637cfb78a22a193c2e76a20bba14fc912"
+    }
+  ]
+}

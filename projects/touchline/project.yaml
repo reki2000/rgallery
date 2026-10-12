@@ -1,0 +1,92 @@
+order: 40
+tags:
+- demo
+title:
+  ja: TOUCHLINE
+  en: TOUCHLINE
+summary:
+  ja: 22人が判断し、走り、パスをつなぐ。戦術・会場・カメラを切り替えて観戦する3Dサッカーシミュレーター。日本語音声の実況ナレーションと解説付き。
+  en: Twenty-two players make decisions, run and pass. Change tactics, stadiums and cameras in a 3D football simulation,
+    with Japanese spoken play-by-play commentary and analysis.
+technology:
+- Three.js
+- WebGL 2
+url: https://reki2000.github.io/demos-soccer/
+repository: https://github.com/reki2000/demos-soccer
+screenshots:
+- src: screenshots/20261012T014530276677Z/desktop-3.png
+  caption:
+    ja: ゴールの瞬間
+    en: Goal celebration
+  crop:
+    x: 62
+    y: 302
+    width: 956
+    height: 520
+- src: screenshots/20261012T021510156945Z/desktop-1.png
+  caption:
+    ja: 試合の場面1
+    en: Match scene 1
+  crop:
+    x: 64
+    y: 302
+    width: 994
+    height: 520
+- src: screenshots/20261012T021510156945Z/desktop-2.png
+  caption:
+    ja: 試合の場面2
+    en: Match scene 2
+  crop:
+    x: 64
+    y: 302
+    width: 994
+    height: 520
+- src: screenshots/20261012T021510156945Z/desktop-3.png
+  caption:
+    ja: 試合の場面3
+    en: Match scene 3
+  crop:
+    x: 64
+    y: 302
+    width: 994
+    height: 520
+- src: screenshots/20261012T021510156945Z/desktop-1.png
+  caption:
+    ja: 試合と設定を含む画面全体
+    en: Full interface with match and settings
+- src: screenshots/20261012T014530276677Z/desktop-1.png
+  caption:
+    ja: PC・場面1
+    en: Desktop scene 1
+  crop:
+    x: 62
+    y: 302
+    width: 956
+    height: 520
+- src: screenshots/20261012T014530276677Z/desktop-2.png
+  caption:
+    ja: PC・場面2
+    en: Desktop scene 2
+  crop:
+    x: 62
+    y: 302
+    width: 956
+    height: 520
+- src: screenshots/20261012T014530276677Z/mobile-1.png
+  caption:
+    ja: スマホでの試合1
+    en: Mobile match 1
+  crop:
+    x: 20
+    y: 253
+    width: 350
+    height: 350
+- src: screenshots/20261012T014530276677Z/mobile-2.png
+  caption:
+    ja: スマホでの試合2
+    en: Mobile match 2
+  crop:
+    x: 20
+    y: 253
+    width: 350
+    height: 350

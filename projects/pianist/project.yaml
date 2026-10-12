@@ -1,0 +1,84 @@
+order: 20
+tags:
+- demo
+title:
+  ja: Piano Recital
+  en: Piano Recital
+summary:
+  ja: MIDIから運指を自動生成し、音と指先、鍵盤がひとつの時間を刻む。クラシックやラグタイムなど全18曲を、複数のカメラで楽しむピアノ演奏デモ。
+  en: Automatically generated fingering brings MIDI notes, fingers and keys into sync. Enjoy 18 pieces, including
+    classical music and ragtime, with recorded grand-piano audio and multiple cameras.
+technology:
+- WebGL
+- Web Audio
+- MIDI
+url: https://reki2000.github.io/demos-pianist/
+repository: https://github.com/reki2000/demos-pianist
+screenshots:
+- src: screenshots/f80c2b2b058e673cf7e1/desktop-1.png
+  caption:
+    ja: 英雄ポロネーズ・楽譜、演奏とプレイヤー操作
+    en: Heroic Polonaise · score, performance and playback controls
+  crop:
+    x: 55
+    y: 112
+    width: 1113
+    height: 818
+- src: screenshots/85dcb246edd80a1faa4e/desktop-1.png
+  caption:
+    ja: 収録18曲の一覧
+    en: All 18 pieces
+  crop:
+    x: 55
+    y: 120
+    width: 1111
+    height: 558
+- src: screenshots/4e75c2227310ae25aa94/desktop-4.png
+  caption:
+    ja: 楽譜・演奏・操作パネルを含む全画面
+    en: Full interface with score, performance and controls
+- src: screenshots/4e75c2227310ae25aa94/desktop-2.png
+  caption:
+    ja: 自動生成した運指・手元の視点
+    en: Automatically generated fingering · hands view
+  crop:
+    x: 64
+    y: 112
+    width: 1296
+    height: 736
+- src: screenshots/4e75c2227310ae25aa94/desktop-1.png
+  caption:
+    ja: 英雄ポロネーズ・楽譜と演奏
+    en: Heroic Polonaise · live score and performance
+  crop:
+    x: 64
+    y: 112
+    width: 1296
+    height: 736
+- src: screenshots/4e75c2227310ae25aa94/mobile-1.png
+  caption:
+    ja: スマホ・楽譜と演奏
+    en: Mobile · score and performance
+  crop:
+    x: 16
+    y: 82
+    width: 357
+    height: 673
+- src: screenshots/4e75c2227310ae25aa94/mobile-2.png
+  caption:
+    ja: スマホ・楽譜と手元
+    en: Mobile · score and hands
+  crop:
+    x: 16
+    y: 82
+    width: 357
+    height: 673
+- src: screenshots/4e75c2227310ae25aa94/desktop-5.png
+  caption:
+    ja: トルコ行進曲・楽譜と演奏
+    en: Rondo alla Turca · live score and performance
+  crop:
+    x: 64
+    y: 84
+    width: 1296
+    height: 552

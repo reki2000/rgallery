@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://reki2000.github.io/rgallery/sitemap.xml
