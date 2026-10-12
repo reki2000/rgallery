@@ -162,7 +162,7 @@ def shell(body, lang, prefix, counterpart, title, description, canonical, site):
 <link rel="stylesheet" href="{prefix}assets/style.css"><script src="{prefix}assets/site.js" defer></script></head>
 <body><a class="skip-link" href="#main">{'本文へ' if lang == 'ja' else 'Skip to content'}</a><div class="page">
 <header class="site-header"><a class="wordmark" href="index.html">{h(site['name'])}</a>
-<div class="header-right">{github_link("https://github.com/" + site["author"], site["author"] + " · GitHub", "github-link")}<nav class="languages" aria-label="{h(c['language'])}">{switch}</nav></div></header>
+<div class="header-right">{github_link(site["repository"], site["name"] + " · GitHub", "github-link")}<nav class="languages" aria-label="{h(c['language'])}">{switch}</nav></div></header>
 <main id="main">{body}</main><footer><span class="mono">© {h(site['author'])}</span></footer></div>
 <dialog class="lightbox" aria-label="{h(c['shots'])}"><div class="lightbox-top"><span class="lightbox-caption"></span><button class="close-lightbox" aria-label="{h(c['close'])}">×</button></div><img alt=""><div class="lightbox-bottom"><button class="previous-shot" aria-label="{h(c['previous'])}">←</button><span class="lightbox-count mono"></span><button class="next-shot" aria-label="{h(c['next'])}">→</button></div></dialog>
 </body></html>'''

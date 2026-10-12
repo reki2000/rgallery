@@ -26,15 +26,16 @@ python3 scripts/preview.py
 
 ## サイトの設定
 
-`site.yaml` にサイト名、GitHubアカウント名、公開URLを設定します。
+`site.yaml` にサイト名、GitHubアカウント名、公開URL、リポジトリURLを設定します。
 
 ```yaml
 name: My Gallery
 author: YOUR_GITHUB_USERNAME
 url: https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY/
+repository: https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY
 ```
 
-`author` はヘッダーのGitHubリンクとフッターに、`url` は canonical と sitemap に使います。
+`author` はフッターに、`repository` はヘッダーのGitHubリンクに、`url` は canonical と sitemap に使います。
 スタイルは `static/style.css`、検索と画像拡大の処理は `static/site.js` で変更できます。
 
 ## 作品の追加
