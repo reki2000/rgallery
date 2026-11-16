@@ -145,10 +145,9 @@ def project_row(p, lang, prefix, number):
     if p.get('url'):
         title = f'<a class="title-link" href="{h(p["url"])}" target="_blank" rel="noopener noreferrer">{title} <span aria-hidden="true">↗</span></a>'
     return f'''<article id="project-{h(p['id'])}" class="project" data-tags="{h(' '.join(p['tags']))}" data-search="{h(search.lower())}">
-      <div class="project-head"><span class="number mono">{number:02d}</span><h2>{title}</h2></div>
-      <div class="project-meta">{badges(p)}{source}</div>
+      <div class="project-head"><div class="head-side"><span class="number mono">{number:02d}</span>{badges(p)}</div><h2>{title}</h2></div>
       <div class="project-body"><p>{h(p['summary'][lang])}</p>{note}
-      <div class="technologies mono">{h(' · '.join(p['technology']))}</div></div>
+      <div class="project-tech"><span class="technologies mono">{h(' · '.join(p['technology']))}</span>{source}</div></div>
       <div class="project-preview">{photos}</div></article>'''
 
 def asset_version(name):
