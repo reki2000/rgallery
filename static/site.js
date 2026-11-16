@@ -37,7 +37,7 @@ if (dialog && typeof dialog.showModal === 'function' && shots.length) {
     dialog.querySelector('.previous-shot').hidden = gallery.length < 2;
     dialog.querySelector('.next-shot').hidden = gallery.length < 2;
   }
-  shots.forEach((shot, index) => shot.addEventListener('click', event => {
+  shots.forEach(shot => shot.addEventListener('click', event => {
     event.preventDefault();
     trigger = shot;
     gallery = shots.filter(item => item.dataset.gallery === shot.dataset.gallery);
