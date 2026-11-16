@@ -138,7 +138,6 @@ def project_row(p, lang, prefix, number):
             photos += f'<a href="{url}" class="preview-shot screenshot-link shot-{index}" data-gallery="{h(p["id"])}" data-caption="{caption}" aria-label="{h(c["enlarge"])}: {caption}" {"hidden" if not visible else ""}>{image}</a>'
     else:
         photos = cover(p, lang)
-    action = f'<a class="open-link" href="{h(p["url"])}" target="_blank" rel="noopener noreferrer">{h(c["read"] if "text" in p["tags"] else c["launch"])} <span aria-hidden="true">↗</span></a>' if p.get('url') else ''
     source = github_link(p['repository'], p['title'][lang] + ' · GitHub') if p.get('repository') else ''
     note = f'<p class="project-note">{h(p["note"][lang])}</p>' if p.get('note') else ''
     search = ' '.join([p['title'][lang], p['summary'][lang], *p['technology'], *p['tags']])
@@ -146,10 +145,10 @@ def project_row(p, lang, prefix, number):
     if p.get('url'):
         title = f'<a class="title-link" href="{h(p["url"])}" target="_blank" rel="noopener noreferrer">{title} <span aria-hidden="true">↗</span></a>'
     return f'''<article id="project-{h(p['id'])}" class="project" data-tags="{h(' '.join(p['tags']))}" data-search="{h(search.lower())}">
-      <div class="project-head"><h2>{title}</h2></div>
-      <div class="project-meta"><span class="number mono">{number:02d}</span>{badges(p)}</div>
+      <div class="project-head"><span class="number mono">{number:02d}</span><h2>{title}</h2></div>
+      <div class="project-meta">{badges(p)}{source}</div>
       <div class="project-body"><p>{h(p['summary'][lang])}</p>{note}
-      <div class="technologies mono">{h(' · '.join(p['technology']))}</div><div class="project-links">{action}{source}</div></div>
+      <div class="technologies mono">{h(' · '.join(p['technology']))}</div></div>
       <div class="project-preview">{photos}</div></article>'''
 
 def asset_version(name):

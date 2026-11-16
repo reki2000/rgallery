@@ -52,24 +52,22 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .search input::-webkit-search-cancel-button { -webkit-appearance: none; }
 .clear-search { position: absolute; right: 0; background: transparent; border: 0; color: var(--muted); }
 .collection-heading { display: flex; justify-content: space-between; gap: 16px; padding-top: 22px; font-size: var(--text-small); color: var(--muted); }
-.project { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.25fr); grid-template-areas: "meta preview" "head preview" "body preview"; gap: 0 48px; align-items: start; padding: 32px 0 36px; border-bottom: 1px solid var(--line); }
-.project-head { grid-area: head; min-width: 0; }
+.project { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.25fr); grid-template-areas: "head preview" "meta preview" "body preview"; gap: 10px 48px; align-items: start; padding: 32px 0 36px; border-bottom: 1px solid var(--line); }
+.project-head { grid-area: head; min-width: 0; display: flex; align-items: baseline; gap: 14px; }
 .project-body { grid-area: body; min-width: 0; }
 .project-meta { grid-area: meta; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: var(--text-small); }
-.number { color: var(--muted); margin-right: 7px; }
+.project-meta .icon-link { margin-left: auto; }
+.number { color: var(--muted); font-size: var(--text-small); }
 .tag { font-family: var(--mono); padding: 2px 7px; background: #22313a; color: #8bc8e3; line-height: 1.5; }
 .tag-game { background: #332d27; color: #d9b67b; }
 .tag-text { background: #2c283a; color: #bdb0db; }
-.project h2 { font-family: 'Avenir Next', 'Trebuchet MS', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: var(--text-title); font-weight: 500; line-height: 1.4; margin: 13px 0 15px; overflow-wrap: anywhere; }
+.project h2 { font-family: 'Avenir Next', 'Trebuchet MS', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: var(--text-title); font-weight: 500; line-height: 1.4; margin: 0; overflow-wrap: anywhere; }
 :lang(ja) .project h2 { font-family: -apple-system, BlinkMacSystemFont, 'Yu Gothic', 'Hiragino Kaku Gothic ProN', sans-serif; font-weight: 600; }
 .project-body > p { font-family: Georgia, 'Times New Roman', serif; color: #c9c9c8; font-size: var(--text-small); line-height: 1.8; margin: 0 0 17px; }
 :lang(ja) .project-body > p { font-family: 'Yu Mincho', 'Hiragino Mincho ProN', 'Noto Serif CJK JP', serif; line-height: 1.95; }
 .project-body > .project-note { font-size: var(--text-small); color: var(--muted); }
 .title-link span { font-size: .55em; color: var(--accent); }
 .technologies { font-size: var(--text-small); color: var(--muted); line-height: 1.7; overflow-wrap: anywhere; }
-.project-links { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 22px; font-size: var(--text-small); }
-.open-link { color: var(--accent); border-bottom: 1px solid #47778e; line-height: 1.8; }
-.project-links .icon-link { border: 0; }
 .project-preview { grid-area: preview; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; min-width: 0; }
 .preview-shot { display: block; min-width: 0; overflow: hidden; background: #20232b; aspect-ratio: 16 / 10; cursor: zoom-in; }
 .preview-shot.shot-0 { grid-column: 1 / -1; }
@@ -92,7 +90,7 @@ footer { padding: 34px 0 40px; color: var(--muted); font-size: var(--text-small)
 .skip-link:focus { top: 8px; }
 @media (max-width: 850px) {
   .page { width: calc(100% - 56px); }
-  .project { gap: 0 28px; }
+  .project { gap: 10px 28px; }
   .collection-tools { align-items: flex-start; flex-direction: column; gap: 17px; }
   .search { width: 100%; }
   .search input { width: 100%; }
@@ -105,7 +103,6 @@ footer { padding: 34px 0 40px; color: var(--muted); font-size: var(--text-small)
   .collection-heading { flex-wrap: wrap; padding-top: 18px; }
   .project { grid-template-columns: minmax(0, 1fr); grid-template-areas: "head" "preview" "meta" "body"; gap: 14px; padding: 26px 0 30px; }
   .project h2 { margin: 0; }
-  .project-links { gap: 14px; margin-top: 16px; }
   footer { padding: 25px 0 32px; }
   .lightbox { padding: 8px 12px; }
   .lightbox > img { height: calc(85vh - 150px); }
