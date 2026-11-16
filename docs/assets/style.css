@@ -53,9 +53,9 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .clear-search { position: absolute; right: 0; background: transparent; border: 0; color: var(--muted); }
 .collection-heading { display: flex; justify-content: space-between; gap: 16px; padding-top: 22px; font-size: var(--text-small); color: var(--muted); }
 .project { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.25fr); grid-template-areas: "head preview" "body preview"; gap: 10px 48px; align-items: start; padding: 32px 0 36px; border-bottom: 1px solid var(--line); }
-.project-head { grid-area: head; min-width: 0; display: flex; align-items: flex-start; gap: 14px; }
-.project-head h2 { flex: 1; min-width: 0; }
-.head-side { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; padding-top: 9px; }
+.project-head { grid-area: head; min-width: 0; }
+.head-meta { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; font-size: var(--text-small); }
+.project-head h2 { margin-top: 10px; }
 .project-body { grid-area: body; min-width: 0; }
 .project-tech { display: flex; gap: 8px 14px; align-items: center; font-size: var(--text-small); }
 .project-tech .technologies { flex: 1; min-width: 0; }
@@ -105,7 +105,6 @@ footer { padding: 34px 0 40px; color: var(--muted); font-size: var(--text-small)
   .filter { gap: 7px; padding: 5px 10px; }
   .collection-heading { flex-wrap: wrap; padding-top: 18px; }
   .project { grid-template-columns: minmax(0, 1fr); grid-template-areas: "head" "preview" "body"; gap: 14px; padding: 26px 0 30px; }
-  .project h2 { margin: 0; }
   footer { padding: 25px 0 32px; }
   .lightbox { padding: 8px 12px; }
   .lightbox > img { height: calc(85vh - 150px); }
