@@ -152,6 +152,9 @@ def project_row(p, lang, prefix, number):
       <div class="technologies mono">{h(' · '.join(p['technology']))}</div><div class="project-links">{action}{source}</div></div>
       <div class="project-preview">{photos}</div></article>'''
 
+def asset_version(name):
+    return hashlib.sha256((ROOT / 'static' / name).read_bytes()).hexdigest()[:8]
+
 def shell(body, lang, prefix, counterpart, title, description, canonical, site):
     c = COPY[lang]
     english = lang == 'en'
@@ -163,7 +166,7 @@ def shell(body, lang, prefix, counterpart, title, description, canonical, site):
 <meta name="theme-color" content="#16171d"><link rel="canonical" href="{h(site['url'] + canonical)}">
 <link rel="alternate" hreflang="{'ja' if english else 'en'}" href="{h(site['url'] + (canonical.removeprefix('en/') if english else 'en/' + canonical))}">
 <meta property="og:type" content="website"><meta property="og:title" content="{h(title)}"><meta property="og:description" content="{h(description)}"><meta property="og:url" content="{h(site['url'] + canonical)}">
-<link rel="stylesheet" href="{prefix}assets/style.css"><script src="{prefix}assets/site.js" defer></script></head>
+<link rel="stylesheet" href="{prefix}assets/style.css?v={asset_version('style.css')}"><script src="{prefix}assets/site.js?v={asset_version('site.js')}" defer></script></head>
 <body><a class="skip-link" href="#main">{'本文へ' if lang == 'ja' else 'Skip to content'}</a><div class="page">
 <header class="site-header"><a class="wordmark" href="index.html">{h(site['name'])}</a>
 <div class="header-right">{github_link(site["repository"], site["name"] + " · GitHub", "github-link")}<nav class="languages" aria-label="{h(c['language'])}">{switch}</nav></div></header>
