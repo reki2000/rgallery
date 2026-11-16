@@ -1,3 +1,4 @@
+/* Variables and base */
 :root {
   color-scheme: dark;
   --paper: #16171d;
@@ -31,6 +32,8 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .page { width: min(1120px, calc(100% - 112px)); margin: auto; }
 .site-header { height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .wordmark { font-family: Georgia, 'Yu Mincho', 'Hiragino Mincho ProN', serif; font-size: var(--text-body); }
+
+/* Header */
 .header-right { display: flex; align-items: center; gap: 20px; }
 .icon-link { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; color: var(--ink); flex: 0 0 auto; }
 .icon-link svg { width: 28px; height: 28px; }
@@ -44,6 +47,8 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .collection-tools { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
 .filters { display: flex; flex-wrap: wrap; gap: 7px; }
 .filter { display: inline-flex; align-items: center; gap: 10px; padding: 5px 12px; border: 1px solid transparent; color: var(--muted); font-size: var(--text-small); }
+
+/* Collection tools: category filters and search */
 .filter.selected { border-color: var(--line); background: #232b36; color: var(--ink); }
 .filter span { opacity: .65; }
 .search { display: flex; align-items: center; gap: 9px; position: relative; color: var(--muted); min-width: 0; }
@@ -58,6 +63,8 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .project-head h2 { margin-top: 10px; }
 .project-body { grid-area: body; min-width: 0; }
 .project-tech { display: flex; gap: 8px 14px; align-items: center; font-size: var(--text-small); }
+
+/* Project card */
 .project-tech .technologies { flex: 1; min-width: 0; }
 .project-tech .icon-link { margin-left: auto; flex: 0 0 auto; }
 .number { color: var(--muted); font-size: var(--text-small); }
@@ -81,12 +88,16 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .text-cover strong { font-family: Georgia, 'Yu Mincho', 'Hiragino Mincho ProN', serif; font-size: var(--text-title); font-weight: 400; color: var(--ink); }
 .missing-cover { align-items: center; text-align: center; }
 .empty-state { padding: 60px 0; text-align: center; color: var(--muted); }
+
+/* Screenshot covers (text works and missing images) */
 footer { padding: 34px 0 40px; color: var(--muted); font-size: var(--text-small); }
 .lightbox { width: min(1280px, 94vw); max-height: 94vh; padding: 15px 22px; background: var(--paper); border: 0; color: var(--ink); }
 .lightbox::backdrop { background: #080a10e8; }
 .lightbox > img { display: block; width: 100%; height: calc(90vh - 150px); object-fit: contain; }
 .lightbox-top, .lightbox-bottom { display: flex; justify-content: space-between; align-items: center; gap: 15px; min-height: 44px; }
 .lightbox-caption, .lightbox-count { font-size: var(--text-small); }
+
+/* Footer and screenshot lightbox */
 .lightbox button { border: 0; background: transparent; color: var(--ink); min-width: 44px; min-height: 44px; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 .skip-link { position: absolute; left: 20px; top: -100px; padding: 10px; background: var(--accent); color: var(--paper); z-index: 5; }
@@ -95,10 +106,14 @@ footer { padding: 34px 0 40px; color: var(--muted); font-size: var(--text-small)
   .page { width: calc(100% - 56px); }
   .project { gap: 10px 28px; }
   .collection-tools { align-items: flex-start; flex-direction: column; gap: 17px; }
+
+/* Accessibility helpers */
   .search { width: 100%; }
   .search input { width: 100%; }
 }
 @media (max-width: 640px) {
+
+/* Responsive */
   .page { width: calc(100% - 40px); }
   .header-right { gap: 8px; }
   .collection { padding-top: 20px; }
