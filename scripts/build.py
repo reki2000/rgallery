@@ -142,9 +142,13 @@ def project_row(p, lang, prefix, number):
     source = github_link(p['repository'], p['title'][lang] + ' · GitHub') if p.get('repository') else ''
     note = f'<p class="project-note">{h(p["note"][lang])}</p>' if p.get('note') else ''
     search = ' '.join([p['title'][lang], p['summary'][lang], *p['technology'], *p['tags']])
+    title = h(p['title'][lang])
+    if p.get('url'):
+        title = f'<a class="title-link" href="{h(p["url"])}" target="_blank" rel="noopener noreferrer">{title} <span aria-hidden="true">↗</span></a>'
     return f'''<article id="project-{h(p['id'])}" class="project" data-tags="{h(' '.join(p['tags']))}" data-search="{h(search.lower())}">
-      <div class="project-info"><div class="project-meta"><span class="number mono">{number:02d}</span>{badges(p)}</div>
-      <h2>{h(p['title'][lang])}</h2><p>{h(p['summary'][lang])}</p>{note}
+      <div class="project-head"><h2>{title}</h2></div>
+      <div class="project-meta"><span class="number mono">{number:02d}</span>{badges(p)}</div>
+      <div class="project-body"><p>{h(p['summary'][lang])}</p>{note}
       <div class="technologies mono">{h(' · '.join(p['technology']))}</div><div class="project-links">{action}{source}</div></div>
       <div class="project-preview">{photos}</div></article>'''
 
